@@ -12,6 +12,7 @@ class BotaoPadrao extends StatefulWidget {
   final Icon icon;
   final Color textColor;
   final Color colorIcon;
+
   final double width;
 
   const BotaoPadrao({
