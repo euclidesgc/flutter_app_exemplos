@@ -32,11 +32,7 @@ class MyHomePage extends StatelessWidget {
   _body() {
     return Stack(children: [
       LoginPage(),
-      RaisedButton(onPressed: (){
-       UserModel userModel = Get.find();
-       debugPrint(userModel.nome);
 
-      })
     ],);
 
   }
