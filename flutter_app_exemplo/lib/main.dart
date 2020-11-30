@@ -35,6 +35,7 @@ class MyHomePage extends StatelessWidget {
       RaisedButton(onPressed: (){
        UserModel userModel = Get.find();
        debugPrint(userModel.nome);
+
       })
     ],);
 
